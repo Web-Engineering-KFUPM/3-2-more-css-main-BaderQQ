@@ -39,9 +39,7 @@
    - Give .site-header & .site-footer a subtle background using var(--card)
    - Make the .tagline class a bit muted (use var(--muted))
 */
-.tagline {
-  color: var(--muted);
-}
+
 /* TODO 3:
    - Set the color to the brand variable and make the text bold for the .color-demo .color-note class.
    - Set the color to var(--muted) and the font size to 0.95rem for the .color-demo .muted class.
@@ -180,7 +178,6 @@ body {
 .site-footer {
   text-align: center;
   padding: 1.25rem;
-
   background: var(--card);
 }
 
@@ -346,4 +343,8 @@ body {
   background: rgba(37, 99, 235, 0.7);
   z-index: 2;
   transform: translate(18px, -18px);
+}
+
+.tagline {
+  color: var(--muted);
 }
